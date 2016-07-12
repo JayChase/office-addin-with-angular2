@@ -18,7 +18,7 @@ import {ExcelService, IOfficeResult } from '../office/index';
 })
 export class OfficeInteractionComponent implements OnInit {
     title: string = "Office interaction";
-    description: string = 'Type in the text you want to insert into cell A1 below.';
+    description: string = "Type in the text you want to insert into cell A1 ('Sheet1'!A1) below.";
     feedback: string = '';
 
     isBusy: boolean;
