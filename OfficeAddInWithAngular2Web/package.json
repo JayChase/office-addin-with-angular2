@@ -9,7 +9,7 @@
     "tsc:w": "tsc -w",
     "typings": "typings",
     "install": "typings install",
-    "setup": "typings install && npm install"
+    "setup": "npm install &&typings install"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.4",
