@@ -42,7 +42,5 @@ OfficeAddInWithAngular2Web/addin/**/*.map
 typings
 
 !systemjs.config.js
-!typings/typings.d.ts
-!typings/index.d.ts
 
 npm-debug.log
