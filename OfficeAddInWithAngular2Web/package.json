@@ -3,11 +3,12 @@
   "name": "office-addin-with-angular2",
   "private": true,
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server -c bs-config.json",    
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server -c bs-config.json",
     "lite": "lite-server -c bs-config.json",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
+    "install" : "typings install",
     "setup": "typings install && npm install"
   },
   "dependencies": {
@@ -28,5 +29,6 @@
   "devDependencies": {
     "concurrently": "^2.2.0",
     "lite-server": "^2.2.2"
-  }
+  },
+  "-vs-binding": { "ProjectOpened": [ "setup" ] }
 }

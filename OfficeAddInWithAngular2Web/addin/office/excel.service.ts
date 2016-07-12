@@ -9,7 +9,7 @@ export class ExcelService {
     private workbook: Office.Document = Office.context.document;
     //private bindingName: string = 'addinBinding';
     private bindingName: string = 'addinBinding';
-    private namedItemName: string = 'addinTarget';
+    private namedItemName: string = "'Sheet1'!A1";
     private binding: Office.MatrixBinding;
 
     constructor() { }

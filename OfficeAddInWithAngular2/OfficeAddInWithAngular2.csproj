@@ -50,7 +50,6 @@
       <OpcRelationship>manifest-oemanifest</OpcRelationship>
       <SubType>Designer</SubType>
     </Content>
-    <None Include="SampleBook.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OfficeAddInWithAngular2Web\OfficeAddInWithAngular2Web.csproj">
