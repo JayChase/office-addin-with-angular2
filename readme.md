@@ -3,7 +3,7 @@
 This is a sample project showing how to get started building Office [add-ins](http://dev.office.com/getting-started/addins) with Angular 2 and Office UI Fabric.
 The sample add-in is a task pane add-in for Excel. 
 
-####Requirements: 
+####Requirements
 
 Tools:
 
@@ -32,7 +32,7 @@ You can then still use Office Online for in browser debugging (see below).
 
 ####Installation
 
-Download or clone the repo to its own folder. Open a command prompt under the ./OfficeAddInWithAngular2Web folder and run command:
+Download or clone the repo to its own folder. Open a command prompt under the ./OfficeAddInWithAngular2Web folder and run the command:
 
 ```bash
 npm run setup
@@ -49,7 +49,7 @@ Office add-ins require HTTPS and browser errors when the localhost certificate i
 
 #####...in Excel Online
 
-Either run start the OfficeAddInWithAngular2Web in VS or from **OfficeAddInWithAngular2Web** run
+Either run start the **OfficeAddInWithAngular2Web** project in VS or from the **OfficeAddInWithAngular2Web** directory run
 
 ```bash
 npm start
@@ -66,7 +66,6 @@ In Visual Studio 2015 build the project and run it.
 
 This sample is more of a reference project for people who are already familiar with Office add-ins, Angular 2 and TypeScript than a tutorial
  so if you need to get up to speed with anything here are some good resources.
-
 
 * [Angular 2](https://angular.io/docs/ts/latest/quickstart.html)
 * [TypeScript](https://www.typescriptlang.org/docs/tutorial.html)
