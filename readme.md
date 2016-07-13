@@ -14,16 +14,16 @@ Tools:
 
 NPM Packages:
 
-*[TypeScript](https://www.typescriptlang.org/#download-links)
-*[Typings](https://github.com/typings/typings)
+* [TypeScript](https://www.typescriptlang.org/#download-links)
+* [Typings](https://github.com/typings/typings)
 
 These need to be installed globally. The setup script will do this (see the installation section).
 
 Also recommended are:
 
-*[Node.js Tools for Visual Studio 2015](https://www.visualstudio.com/en-us/features/node-js-vs.aspx)
-*[NPM Task Runner](https://visualstudiogallery.msdn.microsoft.com/8f2f2cbc-4da5-43ba-9de2-c9d08ade4941)
-*[Open Command Line](https://visualstudiogallery.msdn.microsoft.com/4e84e2cf-2d6b-472a-b1e2-b84932511379)
+* [Node.js Tools for Visual Studio 2015](https://www.visualstudio.com/en-us/features/node-js-vs.aspx)
+* [NPM Task Runner](https://visualstudiogallery.msdn.microsoft.com/8f2f2cbc-4da5-43ba-9de2-c9d08ade4941)
+* [Open Command Line](https://visualstudiogallery.msdn.microsoft.com/4e84e2cf-2d6b-472a-b1e2-b84932511379)
 
 
 Visual Studio is required to be able to debug the add-in any of the Office desktop applications. 
@@ -34,9 +34,9 @@ You can then still use Office Online for in browser debugging (see below).
 
 Download or clone the repo to its own folder. Open a command prompt under the ./OfficeAddInWithAngular2Web folder and run command:
 
-````bash
+```bash
 npm run setup
-````
+```
 
 This will install all the required NPM package and typings. If you are using Visual Studio now open the solution and build it.
 
@@ -47,10 +47,20 @@ Office add-ins require HTTPS and browser errors when the localhost certificate i
 
 ####Running the add-in
 
-#####In Excel Online
+#####...in Excel Online
 
+Either run start the OfficeAddInWithAngular2Web in VS or from **OfficeAddInWithAngular2Web** run
 
-#####In Excel desktop
+```bash
+npm start
+```
+
+Open up a new workbook in Excel Online. Click on the **INSERT** tab and then **Office Add-ins**. On the Office Add-ins dialog click **Upload my Add-In** and select 
+**OfficeAddInWithAngular2/OfficeAddInWithAngular2Manifest/OfficeAddInWithAngular2.xml**. The add-in will now be available on the **HOME** tab. **F12** to debug the addin in browser. 
+
+#####...in Excel desktop
+
+In Visual Studio 2015 build the project and run it.
 
 ####Resources
 
