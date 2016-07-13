@@ -68,7 +68,7 @@ This sample is more of a reference project for people who are already familiar w
  so if you need to get up to speed with anything here are some good resources.
 
 
-[Angular 2](https://angular.io/docs/ts/latest/quickstart.html)
-[TypeScript](https://www.typescriptlang.org/docs/tutorial.html)
-[Office UI Fabric](http://dev.office.com/fabric/get-started)
-[Office Add-ins](https://dev.office.com/getting-started/addins)
+* [Angular 2](https://angular.io/docs/ts/latest/quickstart.html)
+* [TypeScript](https://www.typescriptlang.org/docs/tutorial.html)
+* [Office UI Fabric](http://dev.office.com/fabric/get-started)
+* [Office Add-ins](https://dev.office.com/getting-started/addins)
