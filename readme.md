@@ -1,7 +1,7 @@
 ###Building an Office add-in with Angular 2 sample
 
 This is a sample project showing how to get started building Office [add-ins](http://dev.office.com/getting-started/addins) with Angular 2 and Office UI Fabric.
-The sample add-in is a task pane add-in for Excel.
+The sample add-in is a task pane add-in for Excel. 
 
 ####Requirements: 
 
@@ -64,3 +64,11 @@ In Visual Studio 2015 build the project and run it.
 
 ####Resources
 
+This sample is more of a reference project for people who are already familiar with Office add-ins, Angular 2 and TypeScript than a tutorial
+ so if you need to get up to speed with anything here are some good resources.
+
+
+[Angular 2](https://angular.io/docs/ts/latest/quickstart.html)
+[TypeScript](https://www.typescriptlang.org/docs/tutorial.html)
+[Office UI Fabric](http://dev.office.com/fabric/get-started)
+[Office Add-ins](https://dev.office.com/getting-started/addins)
