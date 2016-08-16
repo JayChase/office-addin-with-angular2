@@ -1,20 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm }    from '@angular/forms';
 
-import { OFFICE_UI_DIRECTIVES } from '../office-ui/index';
-
-import {ExcelService, IOfficeResult } from '../office/index';
+import {ExcelService } from '../office/excel.service';
+import { IOfficeResult } from '../office/ioffice-result';
 
 @Component({
     moduleId: module.id,
     templateUrl: 'office-interaction.component.html',
-    styleUrls: ['office-interaction.component.css'],
-    providers: [
-        ExcelService
-    ],
-    directives: [
-        OFFICE_UI_DIRECTIVES
-    ]
+    styleUrls: ['office-interaction.component.css']
 })
 export class OfficeInteractionComponent implements OnInit {
     title: string = "Office interaction";

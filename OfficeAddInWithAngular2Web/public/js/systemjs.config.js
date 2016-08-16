@@ -9,9 +9,7 @@
     'addin': 'addin',
 
     '@angular': 'node_modules/@angular',
-    'rxjs': 'node_modules/rxjs',
-
-    '@angular2-material': 'node_modules/@angular2-material'
+    'rxjs': 'node_modules/rxjs'
   };
 
   // packages tells the System loader how to load when no filename and/or no extension
@@ -27,7 +25,8 @@
     'http',
     'forms',
     'platform-browser',
-    'platform-browser-dynamic'
+    'platform-browser-dynamic',
+    'upgrade'
   ];
 
   // Individual files (~300 requests):

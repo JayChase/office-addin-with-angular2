@@ -1,13 +1,9 @@
 ﻿import { Component } from '@angular/core';
-import { ROUTER_DIRECTIVES } from '@angular/router';
 
 @Component({
     moduleId: module.id,
     templateUrl: 'overview.component.html',
-    styleUrls: ['overview.component.css'],
-    directives:[
-        ROUTER_DIRECTIVES
-    ]
+    styleUrls: ['overview.component.css']
 })
 
 export class OverviewComponent {
@@ -21,4 +17,6 @@ export class OverviewComponent {
         }
     ];
 
+    constructor() {
+    }
 }

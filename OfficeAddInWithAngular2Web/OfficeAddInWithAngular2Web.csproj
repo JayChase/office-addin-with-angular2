@@ -343,16 +343,18 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="addin\app.component.ts" />
-    <TypeScriptCompile Include="addin\app.routes.ts" />
+    <TypeScriptCompile Include="addin\app.module.ts" />
+    <TypeScriptCompile Include="addin\demo\demo.module.ts" />
+    <TypeScriptCompile Include="addin\demo\demo.routing.ts" />
     <TypeScriptCompile Include="addin\demo\office-interaction.component.ts" />
     <TypeScriptCompile Include="addin\demo\overview.component.ts" />
     <TypeScriptCompile Include="addin\main.ts" />
     <TypeScriptCompile Include="addin\office-ui\back-button.component.ts" />
     <TypeScriptCompile Include="addin\office-ui\command-bar.component.ts" />
-    <TypeScriptCompile Include="addin\office-ui\index.ts" />
+    <TypeScriptCompile Include="addin\office-ui\office-ui.module.ts" />
     <TypeScriptCompile Include="addin\office\excel.service.ts" />
-    <TypeScriptCompile Include="addin\office\index.ts" />
     <TypeScriptCompile Include="addin\office\ioffice-result.ts" />
+    <TypeScriptCompile Include="addin\office\office.module.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
