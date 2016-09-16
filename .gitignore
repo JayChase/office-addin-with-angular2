@@ -44,3 +44,4 @@ typings
 !systemjs.config.js
 
 npm-debug.log
+npm-debug.log.*
